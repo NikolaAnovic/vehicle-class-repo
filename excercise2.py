@@ -19,7 +19,7 @@ class Bus(Vehicle):
         amount += amount * 10 /100
         return int(amount)
 
-Mercedes = Bus(30,3000)
-Audi = Vehicle(300,75000)
-print(Mercedes.seats_method(),"and a fare of this vehicle is",Mercedes.fare_method())
-print(Audi.seats_method("5"))
+mercedes = Bus(30,3000)
+audi = Vehicle(300,75000)
+print(mercedes.seats_method(),"and a fare of this vehicle is",mercedes.fare_method())
+print(audi.seats_method("5"))
